@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+:root {
+    --background-color: #f3f3f3;
+    --primary-color: hsl(10, 97%, 58%);
+}
+html{
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', helvetica, verdana, tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.bg {
+    background-color: var(--background-color);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+    height: 59px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--background-color);
+}
+
+.footer {
+    max-width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #150c06;
+}
+
+.logo-brand {
+    padding: 5px;
+    width: 48px;
+    background-color: #f6f6f6;
+}
+
+.ajacred-nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu-item a {
+    margin: 1px;
+    padding: 8px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--background-color);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+}
+
+.menu-item a:hover {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-content {
+    padding: 10px;
+    gap: 25px;
+    max-width: 100%;
+    min-height: calc(100vh - 45px - 59px);
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+table {
+    font-size: 13px;
+}
+
+.fa-edit {
+    color: #2f79f9;
+}
+
+.fa-minus-circle {
+    color: red;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}

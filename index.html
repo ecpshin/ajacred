@@ -1,16 +1,31 @@
 <!DOCTYPE html>
-<html lang="ptbr">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="Crédito consignado AJACRED">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/all/geral.css" />
+    <link rel="stylesheet" href="./assets/css/pages/login/styles.css" />
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <div class="container-login">
+        <div class="panel-left"></div>
+        <div class="panel-right">
+            <form action="<?= base_url('autenticar/usuario') ?>" method="post" class="form_login">
+                <h2 class="form_title">LOGIN</h2>
+                <div class="input-group display--column">
+                    <input type="text" name="user-login">
+                </div>
+                <div class="input-group display--column">
+                    <input type="password" name="user-password" maxlength="8">
+                </div>
+                <button type="submit" class="botao botao-access">ACESSAR</button>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>
