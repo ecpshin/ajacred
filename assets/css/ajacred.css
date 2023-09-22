@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/11/2021, 09:12:31
+    Author     : Shin
+*/
+
+*{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 12px;
+}
+.card-header{
+    background-color: #ff466f;
+}
+.titulo{
+    color: #f6f6f6;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalho{
+    background-color: #f0a6b6;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 7px;
+}
+.form-row{
+    margin-bottom: 8px;
+}

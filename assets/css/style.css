@@ -1,5 +1,89 @@
-* {
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 22px!important;
+}
+
+h1 > .small{
+    font-size: 14px!important;
+    color: #666!important;
+}
+.btn-ajacred{
+    float: right;
+    color: #f3f3f3;
+    font-size: 12px;
+    border-color: #ff6600;
+}
+.btn-ajacred:hover{
+    font-weight: 600;
+    font-size: 12px;
+    background-color: #ff8755;
+    border-color: #ff6600;
+}
+.tabelas{ 
+    font-size: 10px!important;
+}
+.cpf{
+    text-align: right;
+}
+.cep{
+    text-align: right
+}
+.phone{
+    text-align: right;
+}
+.valor{
+    text-align: right!important;
+}
+.valores{
+    text-align: right!important;
+}
+.dados{
+    font-size: 16px
+}
+.card-header-ajacred{
+    font-size: 12px!important;
+    background-color: #ff532f;
+    color: #f3f3f3!important;
+    padding: 5px!important;
+}
+.card-header{
+    font-size: 12px!important;
+    background-color: #ff532f;
+    color: #f3f3f3!important;
+    padding: 5px!important;
+    text-shadow: 1px 2px 2px solid #ccc;
+}
+.h6-titles {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-size: 13px!important;
+    text-shadow: 2px 2px 1px #009;
+}
+.alert-ajacred{
+    background-color: #ff6600!important;
+    color: #fff;
+}
+.text-muted-black{
+    color: #f9f0f3!important;
+}
+.text-muted{
+    color: #c9c9c9!important;
+}
+
+.card-border{
+    border: 2px solid #ff532f!important;
+}
+#prazo, #total, #parcela, #liquido {
+    text-align: right;
+}
+
+#tabela td{
+    font-size: 10px!important;
+}
+#tabela th{
+    font-size: 10px!important;
+}
+.bordas{
+    border: 1px solid #667;
 }

@@ -1,0 +1,56 @@
+public function loadfile() {
+
+        $this->load->library('upload');
+        $path = 'C:\\Apache\\htdocs\\ajacred\\assets\\files\\';
+
+        $config['upload_path'] = $path;
+        $config['allowed_types'] = 'csv';
+        $config['overwrite'] = TRUE;
+        $config['file_name'] = 'contratos.csv';
+        $config['max_size'] = 100000;
+
+        $this->upload->initialize($config);
+
+        if ($this->upload->do_upload('arquivo')) {
+            $this->lista_dados();
+        } else {
+            echo $this->upload->display_errors('<p class="alert alert-warning">', '</p>');
+        }
+    }
+
+    public function lista_dados() {
+        $this->load->helper('file');
+        $path = 'C:\\Apache\\htdocs\\ajacred\\assets\\files\\';
+        $handle = fopen($path . 'contratos.csv', 'r');
+
+        $row = 0;
+        while ($line = fgetcsv($handle, 1000, ";")) {
+            if ($row++ == 0) {
+                continue;
+            }
+
+            $people[] = [
+                'nome' => $line[0],
+                'site' => $line[1],
+                'telefone' => $line[2],
+                'idade' => $line[3]
+            ];
+        }                        
+        fclose($handle);
+        $this->lista_csv($people);
+    }
+    
+    public function lista_csv($lista){
+        $data['titulo'] = 'AJACRED';
+        $data['subtitulo'] = 'Painel de Administração';
+        $data['view'] = 'Contratos';
+        $data['page'] = 'Carrgar arquivo CSV';
+        $data['lista'] = $lista;
+        
+        $this->load->view('backend/templates/html-header', $data);
+        $this->load->view('backend/templates/top-navbar');
+        $this->load->view($this->sidebar);
+        $this->load->view('backend/contratos/loadcsv');
+        $this->load->view('backend/templates/content-footer');
+        $this->load->view('backend/templates/html-footer');
+    }

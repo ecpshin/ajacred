@@ -1,0 +1,19 @@
+/* 
+    Created on : 16/12/2020, 10:55:25
+    Author     : Francisco Shin
+*/
+*{
+    font: 14px "Trebuchet MS", verdana, tahoma, sans-serif;
+}
+.nav-link{
+    color: #491217!important;
+}
+.logo-ajacred{
+    width: 42px;
+    height: 32px;
+}
+.text-logo{
+    color: #491217;
+    font-weight: 500;
+    font-size: 18px;
+}

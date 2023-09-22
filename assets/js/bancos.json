@@ -1,0 +1,473 @@
+{	
+	"bancos" :
+	[
+		{
+			"codigo": "001",
+			"banco": "BANCO DO BRASIL S.A."
+		},
+		{
+			"codigo": "003",
+			"banco": "BANCO DA AMAZONIA S.A."
+		},
+		{
+			"codigo": "004",
+			"banco": "BANCO DO NORDESTE DO BRASIL S.A."
+		},
+		{
+			"codigo": "012",
+			"banco": "BANCO INBURSA S.A."
+		},
+		{
+			"codigo": "017",
+			"banco": "BNY MELLON BANCO S.A."
+		},
+		{
+			"codigo": "021",
+			"banco": "BANESTES S.A. BANCO DO ESTADO DO ESPIRITO SANTO"
+		},
+		{
+			"codigo": "024",
+			"banco": "BANCO BANDEPE S.A."
+		},
+		{
+			"codigo": "025",
+			"banco": "BANCO ALFA S.A."
+		},
+		{
+			"codigo": "029",
+			"banco": "BANCO ITAU CONSIGNADO S.A."
+		},
+		{
+			"codigo": "033",
+			"banco": "BANCO SANTANDER  (BRASIL)  S.A."
+		},
+		{
+			"codigo": "036",
+			"banco": "BANCO BRADESCO BBI S.A."
+		},
+		{
+			"codigo": "037",
+			"banco": "BANCO DO ESTADO DO PARA S.A."
+		},
+		{
+			"codigo": "040",
+			"banco": "BANCO CARGILL S.A."
+		},
+		{
+			"codigo": "041",
+			"banco": "BANCO DO ESTADO DO RIO GRANDE DO SUL S.A."
+		},
+		{
+			"codigo": "047",
+			"banco": "BANCO DO ESTADO DE SERGIPE S.A."
+		},
+		{
+			"codigo": "062",
+			"banco": "HIPERCARD BANCO MULTIPLO S.A."
+		},
+		{
+			"codigo": "063",
+			"banco": "BANCO BRADESCARD S.A."
+		},
+		{
+			"codigo": "065",
+			"banco": "BANCO ANDBANK (BRASIL) S.A."
+		},
+		{
+			"codigo": "070",
+			"banco": "BRB - BANCO DE BRASI­LIA S.A."
+		},
+		{
+			"codigo": "074",
+			"banco": "BANCO J. SAFRA S.A."
+		},
+		{
+			"codigo": "075",
+			"banco": "BANCO ABN AMRO S.A."
+		},
+		{
+			"codigo": "077",
+			"banco": "BANCO INTER S.A."
+		},
+		{
+			"codigo": "082",
+			"banco": "BANCO TOPAZIO S.A."
+		},
+		{
+			"codigo": "083",
+			"banco": "BANCO DA CHINA BRASIL S.A."
+		},
+		{
+			"codigo": "094",
+			"banco": "BANCO FINAXIS S.A."
+		},
+		{
+			"codigo": "095",
+			"banco": "TRAVELEX BANCO DE CAMBIO S.A."
+		},
+		{
+			"codigo": "096",
+			"banco": "BANCO B3 S.A."
+		},
+		{
+			"codigo": "102",
+			"banco": "BANCO XP S.A."
+		},
+		{
+			"codigo": "104",
+			"banco": "CAIXA ECONOMICA FEDERAL"
+		},
+		{
+			"codigo": "107",
+			"banco": "BANCO BOCOM BBM S.A."
+		},
+		{
+			"codigo": "119",
+			"banco": "BANCO WESTERN UNION DO BRASIL S.A."
+		},
+		{
+			"codigo": "120",
+			"banco": "BANCO RODOBENS S.A."
+		},
+		{
+			"codigo": "121",
+			"banco": "BANCO AGIBANK S.A."
+		},
+		{
+			"codigo": "125",
+			"banco": "BANCO GENIAL S.A."
+		},
+		{
+			"codigo": "128",
+			"banco": "MS BANK S.A. BANCO DE CAMBIO"
+		},
+		{
+			"codigo": "129",
+			"banco": "UBS BRASIL BANCO DE INVESTIMENTO S.A."
+		},
+		{
+			"codigo": "144",
+			"banco": "BEXS BANCO DE CAMBIO S.A."
+		},
+		{
+			"codigo": "169",
+			"banco": "BANCO OLE BONSUCESSO CONSIGNADO S.A."
+		},
+		{
+			"codigo": "184",
+			"banco": "BANCO ITAU BBA S.A."
+		},
+		{
+			"codigo": "208",
+			"banco": "BANCO BTG PACTUAL S.A."
+		},
+		{
+			"codigo": "212",
+			"banco": "BANCO ORIGINAL S.A."
+		},
+		{
+			"codigo": "217",
+			"banco": "BANCO JOHN DEERE S.A."
+		},
+		{
+			"codigo": "218",
+			"banco": "BANCO BS2 S.A."
+		},
+		{
+			"codigo": "222",
+			"banco": "BANCO CREDIT AGRICOLE BRASIL S.A."
+		},
+		{
+			"codigo": "224",
+			"banco": "BANCO FIBRA S.A."
+		},
+		{
+			"codigo": "233",
+			"banco": "BANCO CIFRA S.A."
+		},
+		{
+			"codigo": "237",
+			"banco": "BANCO BRADESCO S.A."
+		},
+		{
+			"codigo": "243",
+			"banco": "BANCO MASTER S.A."
+		},
+		{
+			"codigo": "246",
+			"banco": "BANCO ABC BRASIL S.A."
+		},
+		{
+			"codigo": "249",
+			"banco": "BANCO INVESTCRED UNIBANCO S.A."
+		},
+		{
+			"codigo": "250",
+			"banco": "BCV - BANCO DE CREDITO E VAREJO S.A."
+		},
+		{
+			"codigo": "254",
+			"banco": "PARANA BANCO S.A."
+		},
+		{
+			"codigo": "269",
+			"banco": "HSBC BRASIL S.A. - BANCO DE INVESTIMENTO"
+		},
+		{
+			"codigo": "276",
+			"banco": "BANCO SENFF S.A."
+		},
+		{
+			"codigo": "299",
+			"banco": "BANCO SOROCRED S.A. - BANCO MULTIPLO (AFINZ)"
+		},
+		{
+			"codigo": "318",
+			"banco": "BANCO BMG S.A."
+		},
+		{
+			"codigo": "320",
+			"banco": "CHINA CONSTRUCTION BANK (BRASIL) BANCO MULTIPLO S.A."
+		},
+		{
+			"codigo": "341",
+			"banco": "ITAU UNIBANCO S.A."
+		},
+		{
+			"codigo": "366",
+			"banco": "BANCO SOCIETE GENERALE BRASIL S.A."
+		},
+		{
+			"codigo": "370",
+			"banco": "BANCO MIZUHO DO BRASIL S.A."
+		},
+		{
+			"codigo": "376",
+			"banco": "BANCO J. P. MORGAN S.A."
+		},
+		{
+			"codigo": "389",
+			"banco": "BANCO MERCANTIL DO BRASIL S.A."
+		},
+		{
+			"codigo": "394",
+			"banco": "BANCO BRADESCO FINANCIAMENTOS S.A."
+		},
+		{
+			"codigo": "399",
+			"banco": "KIRTON BANK S.A. - BANCO MULTIPLO"
+		},
+		{
+			"codigo": "422",
+			"banco": "BANCO SAFRA S.A."
+		},
+		{
+			"codigo": "456",
+			"banco": "BANCO MUFG BRASIL S.A."
+		},
+		{
+			"codigo": "464",
+			"banco": "BANCO SUMITOMO MITSUI BRASILEIRO S.A."
+		},
+		{
+			"codigo": "473",
+			"banco": "BANCO CAIXA GERAL - BRASIL S.A."
+		},
+		{
+			"codigo": "477",
+			"banco": "CITIBANK N.A."
+		},
+		{
+			"codigo": "479",
+			"banco": "BANCO ITAUBANK S.A"
+		},
+		{
+			"codigo": "487",
+			"banco": "DEUTSCHE BANK S.A. - BANCO ALEMAO"
+		},
+		{
+			"codigo": "488",
+			"banco": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION"
+		},
+		{
+			"codigo": "492",
+			"banco": "ING BANK N.V."
+		},
+		{
+			"codigo": "505",
+			"banco": "BANCO CREDIT SUISSE (BRASIL) S.A."
+		},
+		{
+			"codigo": "600",
+			"banco": "BANCO LUSO BRASILEIRO S.A."
+		},
+		{
+			"codigo": "604",
+			"banco": "BANCO INDUSTRIAL DO BRASIL S.A."
+		},
+		{
+			"codigo": "610",
+			"banco": "BANCO VR S.A."
+		},
+		{
+			"codigo": "611",
+			"banco": "BANCO PAULISTA S.A."
+		},
+		{
+			"codigo": "612",
+			"banco": "BANCO GUANABARA S.A."
+		},
+		{
+			"codigo": "623",
+			"banco": "BANCO PAN S.A."
+		},
+		{
+			"codigo": "626",
+			"banco": "BANCO C6 CONSIGNADO S.A."
+		},
+		{
+			"codigo": "630",
+			"banco": "BANCO LETSBANK S.A."
+		},
+		{
+			"codigo": "633",
+			"banco": "BANCO RENDIMENTO S.A."
+		},
+		{
+			"codigo": "634",
+			"banco": "BANCO TRIANGULO S.A."
+		},
+		{
+			"codigo": "643",
+			"banco": "BANCO PINE S.A."
+		},
+		{
+			"codigo": "653",
+			"banco": "BANCO VOITER S.A."
+		},
+		{
+			"codigo": "654",
+			"banco": "BANCO DIGIMAIS S.A."
+		},
+		{
+			"codigo": "655",
+			"banco": "BANCO VOTORANTIM S.A."
+		},
+		{
+			"codigo": "707",
+			"banco": "BANCO DAYCOVAL S.A."
+		},
+		{
+			"codigo": "739",
+			"banco": "BANCO CETELEM S.A."
+		},
+		{
+			"codigo": "743",
+			"banco": "BANCO SEMEAR S.A."
+		},
+		{
+			"codigo": "745",
+			"banco": "BANCO CITIBANK S.A."
+		},
+		{
+			"codigo": "746",
+			"banco": "BANCO MODAL S.A."
+		},
+		{
+			"codigo": "747",
+			"banco": "BANCO RABOBANK INTERNATIONAL BRASIL S.A."
+		},
+		{
+			"codigo": "748",
+			"banco": "BANCO COOPERATIVO SICREDI S.A."
+		},
+		{
+			"codigo": "751",
+			"banco": "SCOTIABANK BRASIL S.A. BANCO MULTIPLO"
+		},
+		{
+			"codigo": "752",
+			"banco": "BANCO BNP PARIBAS BRASIL S.A."
+		},
+		{
+			"codigo": "755",
+			"banco": "BANK OF AMERICA MERRILL LYNCH BANCO MULTIPLO S.A."
+		},
+		{
+			"codigo": "756",
+			"banco": "BANCO COOPERATIVO DO BRASIL S.A. - BANCOOB"
+		},
+		{
+			"codigo": "991",
+			"banco": "BANCO C6 S.A."
+		},
+		{
+			"codigo": "992",
+			"banco": "BANCO CATERPILLAR S.A."
+		},
+		{
+			"codigo": "993",
+			"banco": "BANCO CNH INDUSTRIAL CAPITAL S.A."
+		},
+		{
+			"codigo": "994",
+			"banco": "BANCO CSF S.A."
+		},
+		{
+			"codigo": "995",
+			"banco": "BANCO DE LAGE LANDEN BRASIL S.A."
+		},
+		{
+			"codigo": "996",
+			"banco": "BANCO DIGIO S.A."
+		},
+		{
+			"codigo": "998",
+			"banco": "BANCO FIDIS S.A."
+		},
+		{
+			"codigo": "999",
+			"banco": "BANCO FORD S.A."
+		},
+		{
+			"codigo": "990",
+			"banco": "BANCO GM S.A."
+		},
+		{
+			"codigo": "890",
+			"banco": "BANCO IBM S.A."
+		},
+		{
+			"codigo": "891",
+			"banco": "BANCO ITAU VEICULOS S.A."
+		},
+		{
+			"codigo": "892",
+			"banco": "BANCO ITAUCARD S.A."
+		},
+		{
+			"codigo": "893",
+			"banco": "BANCO ITAULEASING S.A."
+		},
+		{
+			"codigo": "894",
+			"banco": "BANCO RCI BRASIL S.A."
+		},
+		{
+			"codigo": "895",
+			"banco": "BANCO TOYOTA DO BRASIL S.A."
+		},
+		{
+			"codigo": "896",
+			"banco": "BANCO VOLVO BRASIL S.A."
+		},
+		{
+			"codigo": "897",
+			"banco": "BANCO YAMAHA MOTOR DO BRASIL S.A."
+		},
+		{
+			"codigo": "898",
+			"banco": "SCANIA BANCO S.A."
+		}
+	]
+}
